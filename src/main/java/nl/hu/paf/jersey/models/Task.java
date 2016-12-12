@@ -4,4 +4,6 @@ public class Task
 {
 	private boolean done;
 	private String description;
+
+	// todo Write constructor, getters + setters
 }

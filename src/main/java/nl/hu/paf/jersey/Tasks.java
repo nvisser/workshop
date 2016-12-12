@@ -12,16 +12,18 @@ public class Tasks
 	@Consumes(MediaType.APPLICATION_JSON)
 	public String all()
 	{
-		// Show all tasks
+		// todo Show all tasks
 	}
 
 	@POST
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	public String create(@FormParam("description") String desc)
 	{
-		// Make new task with description
+		// todo Make new task with description
 
-		// Add it to the list
+		// todo Add it to the list
+
+		// Return data
 		return task.toString();
 	}
 
@@ -30,15 +32,15 @@ public class Tasks
 	@Consumes(MediaType.APPLICATION_JSON)
 	public String setDone()
 	{
-		// Get task by id
+		// todo Get task by id
 		Task t = TaskMaster.getTask(id);
 
-		// Set task done
+		// todo Set task done
 
-		// What is the indexOf task?
+		// todo What is the indexOf task?
 		int location = ...;
 
-		// Replace item in tasklist
+		// todo Replace item in tasklist
 
 		return t.toString();
 	}
