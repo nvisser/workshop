@@ -1,4 +1,4 @@
-package nl.bcome.paf.jersey.requests;
+package nl.hu.paf.jersey.requests;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

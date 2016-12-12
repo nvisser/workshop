@@ -1,6 +1,6 @@
-package nl.bcome.paf.jersey;
+package nl.hu.paf.jersey;
 
-import nl.bcome.paf.jersey.models.Task;
+import nl.hu.paf.jersey.models.Task;
 
 import java.util.ArrayList;
 import java.util.List;
